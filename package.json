@@ -1,0 +1,15 @@
+{
+  "name": "super-agent",
+  "version": "1.0.0",
+  "description": "A modular autonomous Super Agent powered by Putter.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "putter": "latest",
+    "axios": "latest",
+    "chalk": "latest"
+  }
+}
