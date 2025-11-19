@@ -1,0 +1,9 @@
+body{font-family:system-ui,Arial,Helvetica;background:#f3f4f6;margin:0;padding:20px;color:#111}
+.container{max-width:760px;margin:0 auto;background:#fff;padding:18px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.chat{height:400px;overflow:auto;border:1px solid #eee;padding:10px;background:#fafafa;border-radius:6px}
+.msg{margin:8px 0;padding:10px;border-radius:6px}
+.user{background:#d1e7ff;text-align:right}
+.bot{background:#f1f1f1;text-align:left}
+.controls{display:flex;gap:8px;margin-top:10px}
+#query{flex:1;padding:10px;border-radius:6px;border:1px solid #ddd}
+button{padding:8px 12px;border-radius:6px;border:1px solid #ccc;background:#fff;cursor:pointer}
