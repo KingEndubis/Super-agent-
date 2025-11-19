@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Super Agent UI</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Super Agent</h2>
+    <div id="chat" class="chat"></div>
+    <div class="controls">
+      <input id="query" placeholder="Type or press the mic and speak..." />
+      <button id="mic">🎤</button>
+      <button id="send">Send</button>
+    </div>
+    <div class="tts-controls">
+      <label><input id="auto-tts" type="checkbox" /> Auto TTS</label>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
